@@ -1,0 +1,492 @@
+[
+  {
+    "title": "Composable Energy Policies for Reactive Motion Generation and Reinforcement Learning",
+    "authors": "Julen Urain, Anqi Li, Puze Liu, Carlo D'Eramo, Jan Peters",
+    "venue": "RSS 2021",
+    "year": 2021,
+    "topics": [
+      "constraints"
+    ],
+    "paper": "https://arxiv.org/abs/2105.04962",
+    "image": "images/papers/2105.04962.jpg",
+    "note": "Composes reactive motion policies as a product of energy-based experts."
+  },
+  {
+    "title": "Is Conditional Generative Modeling all you need for Decision-Making?",
+    "authors": "Anurag Ajay, Yilun Du, Abhi Gupta, Joshua Tenenbaum, Tommi Jaakkola, Pulkit Agrawal",
+    "venue": "ICLR 2023",
+    "year": 2023,
+    "topics": [
+      "constraints"
+    ],
+    "paper": "https://arxiv.org/abs/2211.15657",
+    "project": "https://anuragajay.github.io/decision-diffuser/",
+    "image": "images/papers/2211.15657.jpg",
+    "note": "Decision Diffuser: conditions a trajectory diffusion model on returns, constraints and skills, and composes them at test time."
+  },
+  {
+    "title": "PoCo: Policy Composition from and for Heterogeneous Robot Learning",
+    "authors": "Lirui Wang, Jialiang Zhao, Yilun Du, Edward H. Adelson, Russ Tedrake",
+    "venue": "RSS 2024",
+    "year": 2024,
+    "topics": [
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/2402.02511",
+    "project": "https://liruiw.github.io/policycomp/",
+    "image": "images/papers/2402.02511.jpg",
+    "note": "Composes diffusion policies trained on different modalities and domains into one policy at inference time."
+  },
+  {
+    "title": "Modality-Composable Diffusion Policy via Inference-Time Distribution-level Composition",
+    "authors": "Jiahang Cao, Qiang Zhang, Hanzhong Guo, Jiaxu Wang, Hao Cheng, Renjing Xu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "topics": [
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/2503.12466",
+    "image": "images/papers/2503.12466.jpg",
+    "note": "Combines pretrained single-modality diffusion policies by composing their score distributions, with no extra training."
+  },
+  {
+    "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition",
+    "authors": "Jiahang Cao, Yize Huang, Hanzhong Guo, Rui Zhang, Mu Nan, Weijian Mai, Jiaxu Wang, Hao Cheng, Jingkai Sun, Gang Han, Wen Zhao, Qiang Zhang, Yijie Guo, Qihao Zheng, Chunfeng Song, Xiao Li, Ping Luo, Andrew F. Luo",
+    "venue": "ICLR 2026",
+    "year": 2026,
+    "topics": [
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/2510.01068",
+    "project": "https://sagecao1125.github.io/GPC-Site/",
+    "image": "images/papers/2510.01068.jpg",
+    "note": "Composes pretrained diffusion and flow policies at test time to outperform each parent policy."
+  },
+  {
+    "title": "Multi-Modal Manipulation via Multi-Modal Policy Consensus",
+    "authors": "Haonan Chen, Jiaming Xu, Hongyu Chen, Kaiwen Hong, Binghao Huang, Chaoqi Liu, Jiayuan Mao, Yunzhu Li, Yilun Du, Katherine Driggs-Campbell",
+    "venue": "ICRA 2026",
+    "year": 2026,
+    "topics": [
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/2509.23468",
+    "project": "https://policyconsensus.github.io/",
+    "code": "https://github.com/policyconsensus/policyconsensus",
+    "image": "images/papers/2509.23468.jpg",
+    "note": "Factorizes a policy into per-modality diffusion models and composes them, so sparse signals like touch are not drowned out by vision."
+  },
+  {
+    "title": "Flexible Multitask Learning with Factorized Diffusion Policy",
+    "authors": "Chaoqi Liu, Haonan Chen, Sigmund H. Høeg, Shaoxiong Yao, Yunzhu Li, Kris Hauser, Yilun Du",
+    "venue": "RA-L 2026",
+    "year": 2026,
+    "topics": [
+      "modality",
+      "modular"
+    ],
+    "paper": "https://arxiv.org/abs/2512.21898",
+    "project": "https://factorized-diffusion-policy.github.io/",
+    "image": "images/papers/2512.21898.jpg",
+    "note": "Factorizes a multitask diffusion policy into specialized components that are composed for each task."
+  },
+  {
+    "title": "Learning to Be Different: Component Specialization for Compositional Diffusion Policies",
+    "authors": "Alec Laprevotte, Haonan Chen, Xiaoshen Han, Yilun Du",
+    "venue": "CoRL 2026",
+    "year": 2026,
+    "topics": [
+      "modality",
+      "modular"
+    ],
+    "paper": "https://arxiv.org/abs/2610.27194",
+    "project": "https://al3cl1.github.io/robotics-score-decorrelation/",
+    "code": "https://github.com/Al3cL1/decorrelation_release",
+    "image": "images/papers/2610.27194.jpg",
+    "note": "Trains the components of a compositional diffusion policy to specialize instead of duplicating each other."
+  },
+  {
+    "title": "CoStream: Composing Simple Behaviors for Generalizable Complex Manipulation",
+    "authors": "Haonan Chen, Yuxiang Ma, Stephen Tian, Xiaoshen Han, Wenlong Huang, Feiyang Wu, Yunzhu Li, Jiajun Wu, Edward H. Adelson, Yilun Du",
+    "venue": "CoRL 2026",
+    "year": 2026,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2606.26423",
+    "project": "https://costream-simple.github.io/",
+    "image": "images/papers/2606.26423.jpg",
+    "note": "Composes simple behaviors into complex manipulation that generalizes beyond the training tasks."
+  },
+  {
+    "title": "Learning Compositional Models of Robot Skills for Task and Motion Planning",
+    "authors": "Zi Wang, Caelan Reed Garrett, Leslie Pack Kaelbling, Tomás Lozano-Pérez",
+    "venue": "IJRR 2021",
+    "year": 2021,
+    "topics": [
+      "time",
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2006.06444",
+    "image": "images/papers/2006.06444.jpg",
+    "note": "Learns skill models and samplers that plug into a task and motion planner as reusable operators."
+  },
+  {
+    "title": "STAP: Sequencing Task-Agnostic Policies",
+    "authors": "Christopher Agia, Toki Migimatsu, Jiajun Wu, Jeannette Bohg",
+    "venue": "ICRA 2023",
+    "year": 2023,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2210.12250",
+    "project": "https://sites.google.com/stanford.edu/stap",
+    "image": "images/papers/2210.12250.jpg",
+    "note": "Sequences independently trained skills by optimizing their parameters jointly for long-horizon success."
+  },
+  {
+    "title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+    "authors": "Utkarsh A. Mishra, Shangjie Xue, Yongxin Chen, Danfei Xu",
+    "venue": "CoRL 2023",
+    "year": 2023,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2401.03360",
+    "project": "https://generative-skill-chaining.github.io/",
+    "image": "images/papers/2401.03360.jpg",
+    "note": "Chains skill-level diffusion models so each skill's outcome satisfies the next skill's preconditions."
+  },
+  {
+    "title": "Compositional Diffusion-Based Continuous Constraint Solvers",
+    "authors": "Zhutian Yang, Jiayuan Mao, Yilun Du, Jiajun Wu, Joshua B. Tenenbaum, Tomás Lozano-Pérez, Leslie Pack Kaelbling",
+    "venue": "CoRL 2023",
+    "year": 2023,
+    "topics": [
+      "constraints"
+    ],
+    "paper": "https://arxiv.org/abs/2309.00966",
+    "project": "https://diffusion-ccsp.github.io/",
+    "image": "images/papers/2309.00966.jpg",
+    "note": "Solves continuous constraint satisfaction problems by composing one diffusion model per constraint type."
+  },
+  {
+    "title": "Compositional Foundation Models for Hierarchical Planning",
+    "authors": "Anurag Ajay, Seungwook Han, Yilun Du, Shuang Li, Abhi Gupta, Tommi Jaakkola, Josh Tenenbaum, Leslie Kaelbling, Akash Srivastava, Pulkit Agrawal",
+    "venue": "NeurIPS 2023",
+    "year": 2023,
+    "topics": [
+      "time",
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/2309.08587",
+    "project": "https://hierarchical-planning-foundation-model.github.io/",
+    "image": "images/papers/2309.08587.jpg",
+    "note": "Composes language, video and action foundation models into one hierarchical planner."
+  },
+  {
+    "title": "Generative Trajectory Stitching through Diffusion Composition",
+    "authors": "Yunhao Luo, Utkarsh A. Mishra, Yilun Du, Danfei Xu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2503.05153",
+    "project": "https://comp-diffuser.github.io/",
+    "image": "images/papers/2503.05153.jpg",
+    "note": "Generates long plans by composing a diffusion model over short overlapping trajectory segments."
+  },
+  {
+    "title": "Compositional Diffusion with Guided Search for Long-Horizon Planning",
+    "authors": "Utkarsh A Mishra, David He, Yongxin Chen, Danfei Xu",
+    "venue": "ICLR 2026 (Oral)",
+    "year": 2026,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2601.00126",
+    "image": "images/papers/2601.00126.jpg",
+    "note": "Adds guided search to compositional diffusion so long-horizon plans stay coherent across segments."
+  },
+  {
+    "title": "Dream What I Can: Sparse Visual Planning for Long-Horizon Robot Manipulation",
+    "authors": "Chongkai Gao, Wenlong Huang, Haonan Chen, Lin Shao, Yilun Du, Jiajun Wu, Ruohan Zhang, Li Fei-Fei",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2610.24981",
+    "project": "https://dreamcan.github.io/",
+    "code": "https://github.com/HeegerGao/DreamCan",
+    "image": "images/papers/2610.24981.jpg",
+    "note": "Plans long-horizon manipulation as a sparse sequence of visual subgoals."
+  },
+  {
+    "title": "Neural Task Programming: Learning to Generalize Across Hierarchical Tasks",
+    "authors": "Danfei Xu, Suraj Nair, Yuke Zhu, Julian Gao, Animesh Garg, Li Fei-Fei, Silvio Savarese",
+    "venue": "ICRA 2018",
+    "year": 2018,
+    "topics": [
+      "programs",
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/1710.01813",
+    "image": "images/papers/1710.01813.jpg",
+    "note": "Recursively decomposes a task specification into sub-programs that call reusable primitives."
+  },
+  {
+    "title": "Integrated Task and Motion Planning",
+    "authors": "Caelan Reed Garrett, Rohan Chitnis, Rachel Holladay, Beomjoon Kim, Tom Silver, Leslie Pack Kaelbling, Tomás Lozano-Pérez",
+    "venue": "Annual Review of Control, Robotics, and Autonomous Systems 2021",
+    "year": 2021,
+    "topics": [
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2010.01083",
+    "image": "images/papers/2010.01083.jpg",
+    "note": "Survey of task and motion planning, the classical framework for composing discrete and continuous decisions."
+  },
+  {
+    "title": "PDSketch: Integrated Planning Domain Programming and Learning",
+    "authors": "Jiayuan Mao, Tomás Lozano-Pérez, Joshua B. Tenenbaum, Leslie Pack Kaelbling",
+    "venue": "NeurIPS 2022",
+    "year": 2022,
+    "topics": [
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2303.05501",
+    "project": "https://pdsketch.csail.mit.edu",
+    "image": "images/papers/2303.05501.jpg",
+    "note": "A domain definition language where users sketch the structure and neural networks fill in the details."
+  },
+  {
+    "title": "Learning Neuro-Symbolic Skills for Bilevel Planning",
+    "authors": "Tom Silver, Ashay Athalye, Joshua B. Tenenbaum, Tomás Lozano-Pérez, Leslie Pack Kaelbling",
+    "venue": "CoRL 2022",
+    "year": 2022,
+    "topics": [
+      "programs",
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2206.10680",
+    "image": "images/papers/2206.10680.jpg",
+    "note": "Learns skills with symbolic operators and neural samplers that a bilevel planner can sequence."
+  },
+  {
+    "title": "Code as Policies: Language Model Programs for Embodied Control",
+    "authors": "Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete Florence, Andy Zeng",
+    "venue": "ICRA 2023",
+    "year": 2023,
+    "topics": [
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2209.07753",
+    "project": "https://code-as-policies.github.io/",
+    "image": "images/papers/2209.07753.jpg",
+    "note": "Language models write robot programs that compose perception and control APIs."
+  },
+  {
+    "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+    "authors": "Wenlong Huang, Chen Wang, Ruohan Zhang, Yunzhu Li, Jiajun Wu, Li Fei-Fei",
+    "venue": "CoRL 2023",
+    "year": 2023,
+    "topics": [
+      "constraints",
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2307.05973",
+    "project": "https://voxposer.github.io/",
+    "image": "images/papers/2307.05973.jpg",
+    "note": "Language models compose 3D affordance and constraint maps that a motion planner then optimizes."
+  },
+  {
+    "title": "Learning Adaptive Planning Representations with Natural Language Guidance",
+    "authors": "Lionel Wong, Jiayuan Mao, Pratyusha Sharma, Zachary S. Siegel, Jiahai Feng, Noa Korneev, Joshua B. Tenenbaum, Jacob Andreas",
+    "venue": "ICLR 2024",
+    "year": 2024,
+    "topics": [
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2312.08566",
+    "image": "images/papers/2312.08566.jpg",
+    "note": "Uses language models to propose a library of composable high-level actions, then verifies them by planning."
+  },
+  {
+    "title": "Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer",
+    "authors": "Coline Devin, Abhishek Gupta, Trevor Darrell, Pieter Abbeel, Sergey Levine",
+    "venue": "ICRA 2017",
+    "year": 2017,
+    "topics": [
+      "modular"
+    ],
+    "paper": "https://arxiv.org/abs/1609.07088",
+    "image": "images/papers/1609.07088.jpg",
+    "note": "Splits policies into task modules and robot modules that can be recombined for unseen pairs."
+  },
+  {
+    "title": "Multi-Task Reinforcement Learning with Soft Modularization",
+    "authors": "Ruihan Yang, Huazhe Xu, Yi Wu, Xiaolong Wang",
+    "venue": "NeurIPS 2020",
+    "year": 2020,
+    "topics": [
+      "modular"
+    ],
+    "paper": "https://arxiv.org/abs/2003.13661",
+    "image": "images/papers/2003.13661.jpg",
+    "note": "Learns a routing network that softly combines shared modules for each task."
+  },
+  {
+    "title": "Modular Lifelong Reinforcement Learning via Neural Composition",
+    "authors": "Jorge A. Mendez, Harm van Seijen, Eric Eaton",
+    "venue": "ICLR 2022",
+    "year": 2022,
+    "topics": [
+      "modular"
+    ],
+    "paper": "https://arxiv.org/abs/2207.00429",
+    "image": "images/papers/2207.00429.jpg",
+    "note": "Accumulates neural modules over a lifetime of tasks and recombines them to solve new ones."
+  },
+  {
+    "title": "CompoSuite: A Compositional Reinforcement Learning Benchmark",
+    "authors": "Jorge A. Mendez, Marcel Hussing, Meghna Gummadi, Eric Eaton",
+    "venue": "CoLLAs 2022",
+    "year": 2022,
+    "topics": [
+      "benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2207.04136",
+    "image": "images/papers/2207.04136.jpg",
+    "note": "A benchmark of robot manipulation tasks built from combinations of robots, objects, objectives and obstacles."
+  },
+  {
+    "title": "Efficient Data Collection for Robotic Manipulation via Compositional Generalization",
+    "authors": "Jensen Gao, Annie Xie, Ted Xiao, Chelsea Finn, Dorsa Sadigh",
+    "venue": "RSS 2024",
+    "year": 2024,
+    "topics": [
+      "benchmarks"
+    ],
+    "paper": "https://arxiv.org/abs/2403.05110",
+    "image": "images/papers/2403.05110.jpg",
+    "note": "Measures how far robot policies compose across environmental factors, and what that implies for data collection."
+  },
+  {
+    "title": "Composable Deep Reinforcement Learning for Robotic Manipulation",
+    "authors": "Tuomas Haarnoja, Vitchyr Pong, Aurick Zhou, Murtaza Dalal, Pieter Abbeel, Sergey Levine",
+    "venue": "ICRA 2018",
+    "year": 2018,
+    "topics": [
+      "constraints"
+    ],
+    "paper": "https://arxiv.org/abs/1803.06773",
+    "project": "https://sites.google.com/view/composing-real-world-policies/",
+    "image": "images/papers/1803.06773.jpg",
+    "note": "Composes maximum-entropy policies for different objectives into a policy that satisfies all of them, on a real robot."
+  },
+  {
+    "title": "MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies",
+    "authors": "Xue Bin Peng, Michael Chang, Grace Zhang, Pieter Abbeel, Sergey Levine",
+    "venue": "NeurIPS 2019",
+    "year": 2019,
+    "topics": [
+      "modality"
+    ],
+    "paper": "https://arxiv.org/abs/1905.09808",
+    "project": "https://xbpeng.github.io/projects/MCP/index.html",
+    "image": "images/papers/1905.09808.jpg",
+    "note": "Learns primitives that are combined multiplicatively, so several can be active at once to produce new behaviors."
+  },
+  {
+    "title": "Plan Arithmetic: Compositional Plan Vectors for Multi-Task Control",
+    "authors": "Coline Devin, Daniel Geng, Pieter Abbeel, Trevor Darrell, Sergey Levine",
+    "venue": "NeurIPS 2019",
+    "year": 2019,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/1910.14033",
+    "image": "images/papers/1910.14033.jpg",
+    "note": "Embeds tasks so that adding task vectors yields a policy for the combined task."
+  },
+  {
+    "title": "Adversarial Skill Chaining for Long-Horizon Robot Manipulation via Terminal State Regularization",
+    "authors": "Youngwoon Lee, Joseph J. Lim, Anima Anandkumar, Yuke Zhu",
+    "venue": "CoRL 2021",
+    "year": 2021,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2111.07999",
+    "project": "https://clvrai.github.io/skill-chaining/",
+    "image": "images/papers/2111.07999.jpg",
+    "note": "Fine-tunes each skill so its end states fall where the next skill can start, making long chains reliable."
+  },
+  {
+    "title": "Augmenting Reinforcement Learning with Behavior Primitives for Diverse Manipulation Tasks",
+    "authors": "Soroush Nasiriany, Huihan Liu, Yuke Zhu",
+    "venue": "ICRA 2022",
+    "year": 2022,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2110.03655",
+    "project": "https://ut-austin-rpl.github.io/maple/",
+    "image": "images/papers/2110.03655.jpg",
+    "note": "MAPLE: an RL agent that chooses among a library of parameterized behavior primitives and low-level actions."
+  },
+  {
+    "title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+    "authors": "Yifeng Zhu, Peter Stone, Yuke Zhu",
+    "venue": "RA-L 2022",
+    "year": 2022,
+    "topics": [
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2109.13841",
+    "image": "images/papers/2109.13841.jpg",
+    "note": "BUDS: discovers reusable skills from unsegmented demonstrations and composes them for long-horizon tasks."
+  },
+  {
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "authors": "Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, et al.",
+    "venue": "CoRL 2022",
+    "year": 2022,
+    "topics": [
+      "programs",
+      "time"
+    ],
+    "paper": "https://arxiv.org/abs/2204.01691",
+    "project": "https://say-can.github.io/",
+    "image": "images/papers/2204.01691.jpg",
+    "note": "SayCan: a language model proposes skills and learned value functions score which ones the robot can actually execute."
+  },
+  {
+    "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language Models",
+    "authors": "Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan Tremblay, Dieter Fox, Jesse Thomason, Animesh Garg",
+    "venue": "ICRA 2023",
+    "year": 2023,
+    "topics": [
+      "programs"
+    ],
+    "paper": "https://arxiv.org/abs/2209.11302",
+    "project": "https://progprompt.github.io/",
+    "image": "images/papers/2209.11302.jpg",
+    "note": "Prompts a language model with program-like specifications so it composes available robot actions into executable plans."
+  },
+  {
+    "title": "Rational Inverse Reasoning: Few-Shot Imitation by Inferring Intent through Planning",
+    "authors": "Ben Zandonati, Tomás Lozano-Pérez, Leslie Pack Kaelbling",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "topics": [
+      "programs",
+      "constraints"
+    ],
+    "paper": "https://arxiv.org/abs/2508.08983",
+    "image": "images/papers/2508.08983.jpg",
+    "note": "Infers the intent behind one or a few demonstrations as a compact program of goals and constraints, then plans with it in new scenes."
+  }
+]

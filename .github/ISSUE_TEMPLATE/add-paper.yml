@@ -1,0 +1,61 @@
+name: Suggest a paper
+description: Suggest a paper for the compositional robot learning reading list.
+title: "[Paper] "
+labels: ["paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. A maintainer will add the entry to `data/papers.json`.
+        Your own work is welcome. The scope is robotics work where composition or modularity is the main idea.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper link
+      description: arXiv, OpenReview or publisher page.
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: CoRL 2026, or arXiv 2026
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topics
+      description: Pick all that apply.
+      multiple: true
+      options:
+        - Composing skills over time
+        - Composing modalities & policies
+        - Composing constraints & objectives
+        - Programs & symbolic structure
+        - Modular architectures
+        - Benchmarks & analysis
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Project page (optional)
+  - type: input
+    id: code
+    attributes:
+      label: Code (optional)
+  - type: textarea
+    id: note
+    attributes:
+      label: One sentence on what is composed and how
+      description: This becomes the summary under the title.
+    validations:
+      required: true

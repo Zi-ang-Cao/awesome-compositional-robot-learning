@@ -1,0 +1,26 @@
+name: Build README
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate.py
+      - run: python3 scripts/build_readme.py
+      - name: Commit README if it changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README is up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Regenerate README from data"
+          git push

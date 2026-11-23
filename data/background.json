@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Pandemonium: A Paradigm for Learning",
+    "authors": "Oliver G. Selfridge",
+    "venue": "Mechanisation of Thought Processes 1959",
+    "year": 1959,
+    "paper": "https://doi.org/10.7551/mitpress/4943.003.0011",
+    "note": "Recognition built from many simple, independent \"demons\" whose outputs are combined, an early modular architecture."
+  },
+  {
+    "title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving",
+    "authors": "Richard E. Fikes, Nils J. Nilsson",
+    "venue": "Artificial Intelligence 1971",
+    "year": 1971,
+    "paper": "https://doi.org/10.1016/0004-3702(71)90010-5",
+    "note": "Represents actions as operators with preconditions and effects, so a planner can chain them into new plans."
+  },
+  {
+    "title": "A Robust Layered Control System for a Mobile Robot",
+    "authors": "Rodney A. Brooks",
+    "venue": "IEEE Journal of Robotics and Automation 1986",
+    "year": 1986,
+    "paper": "https://doi.org/10.1109/JRA.1986.1087032",
+    "note": "The subsumption architecture: robot behavior built from layers of simple, independently running modules."
+  },
+  {
+    "title": "NASA/NBS Standard Reference Model for Telerobot Control System Architecture (NASREM)",
+    "authors": "James S. Albus, Harry G. McCain, Ronald Lumia",
+    "venue": "NIST Technical Note 1235 (revised) 1989",
+    "year": 1989,
+    "paper": "https://doi.org/10.6028/NIST.TN.1235r2",
+    "note": "A hierarchical reference architecture that decomposes robot control into sensing, world modeling and planning modules at multiple time scales."
+  },
+  {
+    "title": "Sequential Composition of Dynamically Dexterous Robot Behaviors",
+    "authors": "Robert R. Burridge, Alfred A. Rizzi, Daniel E. Koditschek",
+    "venue": "International Journal of Robotics Research 1999",
+    "year": 1999,
+    "paper": "https://doi.org/10.1177/02783649922066385",
+    "note": "Chains feedback controllers whose regions of attraction funnel into one another, with guarantees on the composed behavior."
+  },
+  {
+    "title": "Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning",
+    "authors": "Richard S. Sutton, Doina Precup, Satinder Singh",
+    "venue": "Artificial Intelligence 1999",
+    "year": 1999,
+    "paper": "https://doi.org/10.1016/S0004-3702(99)00052-1",
+    "note": "The options framework: temporally extended skills that an agent can learn, reuse and sequence."
+  },
+  {
+    "title": "Motor Learning through the Combination of Primitives",
+    "authors": "Ferdinando A. Mussa-Ivaldi, Emilio Bizzi",
+    "venue": "Philosophical Transactions of the Royal Society B 2000",
+    "year": 2000,
+    "paper": "https://doi.org/10.1098/rstb.2000.0733",
+    "note": "Evidence that animals produce movement by combining a small set of motor primitives."
+  },
+  {
+    "title": "Training Products of Experts by Minimizing Contrastive Divergence",
+    "authors": "Geoffrey E. Hinton",
+    "venue": "Neural Computation 2002",
+    "year": 2002,
+    "paper": "https://doi.org/10.1162/089976602760128018",
+    "note": "Combines models by multiplying their distributions, the idea behind composing energies and diffusion scores."
+  }
+]

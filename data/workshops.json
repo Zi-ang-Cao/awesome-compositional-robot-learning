@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Compositional Generalization for Real-World Robot Learning",
+    "url": "https://compogen-robotics.github.io/corl2026/",
+    "venue": "CoRL 2026",
+    "date": "2026-11-12",
+    "location": "Austin, TX",
+    "organizers": [
+      "Haonan Chen",
+      "Shaoxiong Yao",
+      "Wensi Ai",
+      "Shiping Ma",
+      "Weirui Ye",
+      "Ben Zandonati",
+      "Haowen Liu",
+      "Yilun Du",
+      "Jiajun Wu"
+    ],
+    "speakers": [
+      "Jiayuan Mao",
+      "Marc Toussaint",
+      "Leslie Pack Kaelbling",
+      "Danfei Xu"
+    ]
+  },
+  {
+    "title": "Compositional and Modular Learning in the Era of Scaling in Robotics",
+    "url": "https://compositional-robotics.github.io/",
+    "venue": "IROS 2026",
+    "date": "2026-09-27",
+    "location": "Pittsburgh, PA",
+    "organizers": [
+      "Omkar Patil",
+      "Haonan Chen",
+      "Utkarsh Mishra",
+      "Julen Urain",
+      "Danfei Xu",
+      "Yilun Du",
+      "Nakul Gopalan"
+    ],
+    "speakers": [
+      "Yilun Du",
+      "Nakul Gopalan",
+      "Eric Rosen",
+      "Jiayuan Mao",
+      "Leslie Kaelbling",
+      "Eric Eaton"
+    ]
+  }
+]
